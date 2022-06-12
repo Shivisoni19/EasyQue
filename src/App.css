@@ -1,38 +1,1089 @@
-.App {
-  text-align: center;
+/* Gradient Color Css */
+
+.PurpleGradientRight {
+  background: linear-gradient(to right, #837aff, #453cc9);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.PurpleGradientBottom {
+  background: linear-gradient(to Bottom, #837aff, #453cc9);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.BlueGradientRight {
+  background: linear-gradient(to right, #52c9fa, #009ee8);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.BlueGradientBottom {
+  background: linear-gradient(to Bottom, #52c9fa, #009ee8);
+}
+
+.YellowGradient {
+  background: linear-gradient(to Bottom, #ffc100, #e8af00);
+}
+
+/* What We Do ? Section */
+
+.Container_1 h1 {
+  font-family: "Playfair_Extrabold";
+  padding-top: -2vw;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Shapes_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.ShapeOne_1 {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  border: 3px solid;
+  border-radius: 0px 387px 387px 0px;
+  background: linear-gradient(
+        to right,
+        rgba(98, 201, 250, 1),
+        rgba(0, 158, 232, 1)
+      )
+      padding-box,
+    linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.8)
+      )
+      border-box;
+  border-color: transparent;
+  width: 450px;
+  height: 300px;
+  transition: 1s;
+  overflow: hidden;
+}
+/* .ShapeOne_1:hover {
+  width: 780px; 
+} */
+
+.ShapeOne_1 h3 {
+  font-family: "Playfair_Extrabold";
+  color: white;
+  padding-left: 3vw;
+  padding-top: 1vw;
+  font-size: 3vw;
+}
+
+.main_para_1 {
+  color: white;
+  margin-left: 3vw;
+  margin-top: 1.5vw;
+  font-family: "Gilroy_medium";
+  font-size: 1vw;
+}
+.line_1 {
+  width: 65px;
+  height: 4px;
+  background-color: #ffc100;
+  margin-left: 3vw;
+}
+.Cards_1 {
+  margin-top: -15vw;
+  margin-left: 26vw;
+  display: flex;
+  position: relative;
+}
+
+.ShapeOneArrow_1 {
+  width: 10px;
+  height: 10px;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.ShapeOneArrow_1 img {
+  width: 50px;
+  height: 50px;
+  margin-top: -2vw;
+  position: absolute;
+   right: -1px;
+}
+.card1_1 {
+  background: radial-gradient(
+    97.57% 210.75% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+}
+.card2_1 {
+  background: radial-gradient(
+    97.57% 210.75% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.card-title_1 {
+  font-family: "Gilroy_Extra_Bold";
+  color: #22aff1;
+  font-size: 1vw;
+  text-align: center;
+  margin-top: 2vw;
+}
+.card-text_1 {
+  font-family: "Gilroy_Medium";
+  color: #453cc9;
+  font-size: 11px;
+  width: auto;
+  text-align: justify;
+  margin-top: 15px;
+}
+.Medal_1 {
+  width: 10px;
+  height: 10px;
+  animation: Medal_1 1s ease infinite;
+}
+
+/* medal image shape one animation Start  */
+@-webkit-keyframes Medal_1{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
   }
-  to {
-    transform: rotate(360deg);
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
   }
 }
+@keyframes Medal_1{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.Medal_1{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+/* .Medal_1:hover, .Medal_1:focus, .Medal_1:active {
+  -webkit-animation-name: Medal_1;
+  animation-name: Medal_1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+} */
+
+/* medal image animation end  */
+
+.Rectangle_1 {
+  width: 10px;
+  height: 10px;
+  animation: Rectangle_1 1s ease infinite;
+}
+/* rectangle image animation start  */
+
+@-webkit-keyframes Rectangle_1{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes Rectangle_1{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.Rectangle_1{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+/* .Rectangle_1:hover, .Rectangle_1:focus, .Rectangle_1:active {
+  -webkit-animation-name: Medal_1;
+  animation-name: Medal_1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+} */
+
+/* rectangle image animation start  */
+.Medal_1 img {
+  width: 80px;
+  height: 80px;
+  margin-top: -3vw;
+  margin-left: 32px;
+}
+.Rectangle_1 img {
+  width: 80px;
+  height: 80px;
+  margin-top: -3vw;
+  margin-left: 38px;
+}
+.ShapeTwo_1 {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 300px;
+  border: 3px solid;
+  background: linear-gradient(
+        to bottom,
+        rgba(131, 122, 255, 1),
+        rgba(69, 60, 201, 1)
+      )
+      padding-box,
+    linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.3)
+      )
+      border-box;
+  border-radius: 387px 0px 0px 387px;
+  border-color: transparent;
+  transition: 1s;
+  overflow: hidden;
+}
+.ShapeTwo_1 h3 {
+    color: white;
+    text-align: right;
+    margin-right: -1vw;
+    margin-top: -0.7vw;
+    font-size: 3vw;
+}
+.arrowImage_1 {
+  z-index: 2;
+  width: 10px;
+  height: 10px;
+}
+.arrowImage_1 img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: sticky;
+  left: 37%;
+  margin-top: -236px;
+}
+
+.HeadAndImage_1 {
+  margin-right: 4vw;
+  margin-top: 1vw;
+}
+
+/* bag image animation start  */
+.bagImg_1 {
+  width: 10px;
+  height: 10px;
+}
+.bagImg_1 img {
+  width: 100px;
+  height: 100px;
+  margin-left: 0.5vw;
+  /* margin-top: -10px; */
+  animation: float 2s ease-out infinite;
+}
+
+@keyframes float {
+  50% {
+     transform: translate(7px, 0px);
+  }
+}
+
+.bagImg_1:hover {
+  animation: bagImg_1 2s;
+  animation-timing-function: ease;
+  /* animation-iteration-count: infinite; */
+}
+
+/* bag image animation end  */
+
+.ShapeTwoLine_1 {
+  width: 95px;
+  height: 4px;
+  background-color: #ffc100;
+  margin-top: 110px;
+  margin-left: -1vw;
+}
+
+.ShapeTwo_Cards_1 {
+  margin-top: -220px;
+  display: flex;
+  z-index: 2;
+  justify-content: flex-end;
+  margin-right: 25vw;
+}
+.ShapeTwo_card1_1 {
+  background: radial-gradient(
+    97.57% 210.75% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.ShapeTwo_card2_1 {
+  background: radial-gradient(
+    97.57% 210.75% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.ShapeTwo_card-title_1 {
+  font-family: "Gilroy_Extra_Bold";
+  color: #22aff1;
+  font-size: 1vw;
+  text-align: center;
+  margin-top: 2vw;
+}
+.ShapeTwo_card-text_1 {
+  font-family: "Gilroy_Medium";
+  color: #453cc9;
+  font-size: 11px;
+  width: auto;
+  margin-top: 15px;
+  text-align: justify;
+}
+
+.ShapeTwo_Medal_1 {
+  width: 10px;
+  height: 10px;
+  animation: ShapeTwo_Medal_1 1s ease infinite;
+}
+
+
+/* rectangle image animation start  */
+
+@-webkit-keyframes ShapeTwo_Medal_1{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes ShapeTwo_Medal_1{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.ShapeTwo_Medal_1{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+/* rectangle image animation start  */
+
+.ShapeTwo_Rectangle_1 {
+  width: 10px;
+  height: 10px;
+  animation: ShapeTwo_Rectangle_1 1s ease infinite ;
+}
+
+/* ShapeTwo rectangle image animation start  */
+
+@-webkit-keyframes ShapeTwo_Rectangle_1{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes ShapeTwo_Rectangle_1{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.ShapeTwo_Rectangle_1{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+/* .ShapeTwo_Rectangle_1:hover, .ShapeTwo_Rectangle_1:focus, .ShapeTwo_Rectangle_1:active {
+  -webkit-animation-name:ShapeTwo_Rectangle_1;
+  animation-name:ShapeTwo_Rectangle_1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+} */
+
+/* rectangle image animation start  */
+
+.ShapeTwo_Medal_1 img {
+  width: 80px;
+  height: 80px;
+  margin-top: -3vw;
+  margin-left: 32px;
+}
+.ShapeTwo_Rectangle_1 img {
+  width: 80px;
+  height: 80px;
+  margin-top: -3vw;
+  margin-left: 38px;
+}
+
+.ShapeTwo_main_para_1 {
+  color: white;
+  margin-right: 3vw;
+  margin-top: 1.5vw;
+  font-family: "Gilroy_medium";
+  font-size: 1vw;
+  text-align: right;
+}
+
+.ShapeTwo_HeadAndImage_1 {
+  margin-right: 3vw;
+  margin-top: 1vw;
+  justify-content: flex-end;
+}
+
+.Heading_1 {
+  font-family: "Playfair_Extrabold";
+  text-align: right;
+  color: white;
+  margin-top: 8px;
+}
+.Shapes_mob
+{
+  display: none;
+}
+
+
+/* mobile-css */
+
+
+ @media only screen and (max-width: 700px) {
+
+  .Shapes_1
+  {
+    display: none;
+  }
+.Shapes_mob
+{
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.ShapeOne_mob {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid;
+  border-radius: 0px 387px 387px 0px;
+  background: linear-gradient(
+        to right,
+        rgba(98, 201, 250, 1),
+        rgba(0, 158, 232, 1)
+      )
+      padding-box,
+    linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.8)
+      )
+      border-box;
+  border-color: transparent;
+  width: 340px;
+  height: 185px;
+  transition: 1s;
+  overflow: hidden;
+}
+.line_mob{
+  width: 42px;
+  height: 4px;
+  background-color: #ffc100;
+  margin-left: 3vw !important;
+  margin-top: 36px;
+}
+
+.ShapeOne_heading_mob h3{
+  font-family: "Playfair_Extrabold";
+  text-align: left;
+  color: white;
+  top: 35% !important;
+  position: relative;
+  right: -3vw;
+  font-size: 18px;
+}
+
+.main_para_mob{
+  color: white;
+  margin-left: 3vw;
+  margin-top: 2.5vw;
+  font-family: "Gilroy_medium";
+  font-size: 2vw;
+}
+
+.ShapeTwo_mob {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 180px;
+  border: 3px solid;
+  background: linear-gradient(
+        to bottom,
+        rgba(131, 122, 255, 1),
+        rgba(69, 60, 201, 1)
+      )
+      padding-box,
+    linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.3)
+      )
+      border-box;
+  border-radius: 387px 0px 0px 387px;
+  border-color: transparent;
+  transition: 1s;
+  overflow: hidden;
+}
+.ShapeTwo_mob h3 {
+    color: white;
+    text-align: right;
+    margin-right: -1vw;
+    margin-top: -0.7vw;
+    font-size: 3vw;
+}
+.Cards_mob {
+  margin-top: -33vw;
+  margin-left: 32vw;
+  display: flex;
+  position: relative;
+}
+.card1_mob {
+  background: radial-gradient(
+    97.57% 210.75% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  width: 23vw;
+  height: 27vw;
+}
+.card2_mob {
+  background: radial-gradient(
+    97.57% 210.75% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  width: 23vw;
+  height: 27vw;
+}
+
+.Rectangle_mob img {
+  width: 35px;
+  height: 35px;
+  margin-top: -7vw;
+  margin-left: 23px;
+  animation: ShapeTwo_Medal_mob 1s ease infinite ;
+}
+
+.Medal_mob img {
+  width: 35px;
+  height: 35px;
+  margin-top: -11vw;
+  margin-left: 22px;
+  animation: Medal_mob 1s ease infinite ;
+}
+
+@-webkit-keyframes Medal_mob{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes Medal_mob{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.Medal_mob{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+.card-title_mob {
+  font-family: "Gilroy_Extra_Bold";
+  color: #22aff1;
+  font-size: 2vw;
+  text-align: center;
+  margin-top: -1vw;
+}
+.card-text_mob {
+  font-family: "Gilroy_Medium";
+  color: #453cc9;
+  font-size: 5px;
+  width: auto;
+  text-align: justify;
+
+}
+.ShapeTwo_Cards_mob {
+  margin-top: -129px;
+  display: flex;
+  z-index: 2;
+  justify-content: flex-end;
+  margin-right: 24vw;
+}
+.ShapeTwo_card1_mob {
+  background: radial-gradient(
+    97.57% 210.75% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  width: 23vw;
+  height: 27vw;
+}
+.ShapeTwo_card2_mob {
+  background: radial-gradient(
+    97.57% 210.75% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  width: 23vw;
+  height: 27vw;
+}
+.ShapeTwo_Medal_mob img {
+  width: 35px;
+  height: 35px;
+  margin-top: -7vw;
+  margin-left: 23px;
+  animation: ShapeTwo_Medal_mob 1s ease infinite ;
+}
+
+@-webkit-keyframes ShapeTwo_Medal_mob{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes ShapeTwo_Medal_mob{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.ShapeTwo_Medal_mob{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+.ShapeTwo_Rectangle_mob img {
+  width: 35px;
+  height: 35px;
+  margin-top: -8vw;
+  margin-left: 27px;
+  animation: ShapeTwo_Rectangle_mob 1s ease infinite ;
+}
+
+@-webkit-keyframes ShapeTwo_Rectangle_mob{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes ShapeTwo_Rectangle_mob{
+  16.65% {
+    -webkit-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  33.3% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.ShapeTwo_Rectangle_mob{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+.ShapeTwo_card-title_mob {
+  font-family: "Gilroy_Extra_Bold";
+  color: #22aff1;
+  font-size: 2vw;
+  text-align: center;
+  /* margin-top: 2vw; */
+}
+.ShapeTwo_card-text_mob {
+  font-family: "Gilroy_Medium";
+  color: #453cc9;
+  font-size: 5px;
+  width: auto;
+  
+  text-align: justify;
+}
+
+.ShapeTwo_Heading_mob h3{
+  font-family: "Playfair_Extrabold";
+  text-align: right;
+  color: white;
+  top: 38%;
+  position: relative;
+  right: -16vw;
+  font-size: 18px;
+}
+.ShapeTwoLine_mob{
+  width: 50px;
+  height: 4px;
+  background-color: #ffc100;
+  margin-top: 77px;
+  margin-left: -1vw;
+}
+.ShapeTwo_main_para_mob {
+  color: white;
+  margin-right: 3vw;
+  margin-top: 2.5vw;
+  font-family: "Gilroy_medium";
+  font-size: 2vw;
+  text-align: right;
+}
+} 
+
+/* -----------------------------------Visitors Count css start--------------------------- */
+.Visitors_Count span{
+  color: #ffc100;
+}
+.Visitors_Count{
+  font-family: "Gilroy_Semibold";
+  color: #ffff;
+  margin-left: 80vw;
+}
+
+/* mobile-css */
+
+
+@media only screen and (max-width: 700px) {
+     
+  .Visitors_Count span{
+    color: #ffc100;
+  }
+  .Visitors_Count{
+    font-family: "Gilroy_Semibold";
+    color: #ffff;
+    margin-left: 40vw;
+  }
+
+}
+
+/* -----------------------------------Visitors Count css end--------------------------- */
